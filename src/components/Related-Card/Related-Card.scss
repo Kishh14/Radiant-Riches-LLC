@@ -1,0 +1,98 @@
+.related-deals h3 {
+  margin: 25px 0;
+  font-size: 32px;
+  color: #2c384a;
+}
+
+.related-card {
+  width: 300px;
+  padding: 10px;
+}
+
+.related-card img {
+  margin: 10px auto 40px auto;
+  display: block;
+}
+
+.related-card .badges span {
+  background: #f2f4f7;
+  color: #074786;
+  margin-right: 10px;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.related-card h5 {
+  font-weight: 700;
+  color: #626e79;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.related-card p {
+  color: #626e79;
+  margin: 5px 0;
+}
+
+.related-card .price-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.related-card .price-info .price {
+  color: #5c6874;
+}
+
+.related-card .price-info .mrp {
+  color: #8c949c;
+  font-size: 14px;
+}
+
+.related-card .price-info .discount {
+  color: #ef4c5d;
+  font-size: 14px;
+}
+
+.related-card button {
+  background-color: #1b88f4;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.related-deals-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .related-deals h3 {
+    margin: 20px 0;
+    font-size: 27px;
+    color: #2c384a;
+  }
+
+  .related-deals-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+
+  .related-card {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,69 @@
+.App-header {
+  background-color: #212731;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  padding: 18px 0;
+}
+
+.searchBar {
+  background-color: #fff;
+  width: 210px;
+  padding: 3px 8px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchBar .icon {
+  font-size: 20px;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+
+  width: 90%;
+  padding: 5px;
+}
+
+.nav-links a {
+  margin-right: 30px;
+  color: #d1d6da;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .App-header {
+    background-color: #212731;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 18px 0;
+  }
+
+  .searchBar .icon {
+    font-size: 18px;
+  }
+
+  .searchBar {
+    background-color: #fff;
+    width: 85px;
+    padding: 0px 6px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    margin-right: 12px;
+    color: #d1d6da;
+    text-decoration: none;
+  }
+}

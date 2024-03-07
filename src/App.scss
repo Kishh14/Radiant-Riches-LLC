@@ -1,0 +1,48 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbfcfd;
+}
+
+main {
+  margin: 5vh 14vw;
+}
+
+.blog-post {
+  padding: 10px 0;
+}
+
+.singUp-form {
+  margin: 35px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  main {
+    margin: 4vh 9vw;
+  }
+
+  .blog-nav-links a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #4b5665;
+    margin-right: 9px;
+  }
+
+  .blog-breadcrumb a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #5c6874;
+  }
+}
